@@ -1,0 +1,17 @@
+D:\4_semestr\OOTP\LR№8\LR№8\bin\Debug\LR№8.exe.config
+D:\4_semestr\OOTP\LR№8\LR№8\bin\Debug\LR№8.exe
+D:\4_semestr\OOTP\LR№8\LR№8\bin\Debug\LR№8.pdb
+D:\4_semestr\OOTP\LR№8\LR№8\bin\Debug\System.Data.SqlClient.dll
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8.csprojAssemblyReference.cache
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\MainWindow.g.cs
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\App.g.cs
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8_MarkupCompile.cache
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8_MarkupCompile.lref
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\MainWindow.baml
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8.g.resources
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR_8.Properties.Resources.resources
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8.csproj.GenerateResource.cache
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8.csproj.CoreCompileInputs.cache
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8.csproj.CopyComplete
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8.exe
+D:\4_semestr\OOTP\LR№8\LR№8\obj\Debug\LR№8.pdb

@@ -1,0 +1,38 @@
+﻿<Window x:Class="LR_13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR_13"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="550">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="0,0,0,1"
+                BorderBrush="Black">
+            <Canvas x:Name="canvas" />
+        </Border>
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="1" Margin="10"
+                    HorizontalAlignment="Center">
+            <ComboBox x:Name="itemType" Margin="0,0,10,0">
+                <ComboBoxItem Content="Red" IsSelected="True"/>
+                <ComboBoxItem Content="Green"/>
+            </ComboBox>
+            <Button Content="Create"
+                    Width="150"
+                    Margin="0,0,10,0"
+                    Click="Create"/>
+            <Button Content="Golden object"
+                    Click="Singletone"
+                    Margin="0,0,10,0"/>
+            <Button Content="Complex object"
+                    Click='Builder'/>
+        </StackPanel>
+    </Grid>
+</Window>

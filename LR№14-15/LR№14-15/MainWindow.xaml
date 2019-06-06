@@ -1,0 +1,41 @@
+﻿<Window x:Class="LR_14_15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR_14_15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button Name="WorkButton" 
+                    Content="Show" 
+                    Click="ShowWork"
+                    Margin="10"/>
+            <Button Name="ShowStateButton" 
+                    Content="Show current state"
+                    Click="ShowObjectState"
+                    Margin="10"/>
+            <Button Name="ChangeStateButton" 
+                    Content="Change state"
+                    Click="ChangeObjectState"
+                    Margin="10"/>
+            <Button Name="MoveUnitButton" 
+                    Content="Move unit"
+                    Click="Move"
+                    Margin="10"/>
+            <Button Name="MoveSquadButton" 
+                    Content="Move squad"
+                    Click="Move"
+                    Margin="10"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1">
+            <TextBlock Name="ExampleBlock"  Height="420" VerticalAlignment="Top" Width="Auto"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="LR_9.AuthorAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR_9"
+        mc:Ignorable="d"
+        Title="AuthorAdd" Height="220" Width="300">
+    <GroupBox Margin="10" Header="Author">
+        <StackPanel Background="White" Margin="10" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Name" Margin="0,0,15,0"/>
+                <TextBox x:Name="name" Width="150" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <Label Content="Birthday" Margin="0,0,3,0"/>
+                <DatePicker x:Name="birthday" Width="150" VerticalAlignment="Center"/>
+            </StackPanel>
+            <Button x:Name="save" Content="Save" Height="30" Width="100" Margin="0,10" Click="Save_Click"/>
+        </StackPanel>
+    </GroupBox>
+</Window>

@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    
+    <v:String x:Key="_File">File</v:String>
+    <v:String x:Key="_New">New</v:String>
+    <v:String x:Key="_Save">Save</v:String>
+    <v:String x:Key="_Open">Open</v:String>
+    <v:String x:Key="_Recent">Recent files</v:String>
+
+    <v:String x:Key="_Edit">Edit</v:String>
+    <v:String x:Key="_Copy">Copy</v:String>
+    <v:String x:Key="_Paste">Paste</v:String>
+    <v:String x:Key="_Color">Color</v:String>
+
+    <v:String x:Key="_Themes">Themes</v:String>
+    <v:String x:Key="_Light">Light</v:String>
+    <v:String x:Key="_Dark">Dark</v:String>
+
+    <v:String x:Key="_Lang">Language</v:String>
+    <v:String x:Key="_Eng">English</v:String>
+    <v:String x:Key="_Ru">Russian</v:String>
+
+    <v:String x:Key="_Count">Count of symbols:</v:String>
+    <v:String x:Key="_Lines">, lines:</v:String>
+    <v:String x:Key="_SaveName">Saving</v:String>
+    <v:String x:Key="_Save?">Save current file?</v:String>
+    <v:String x:Key="_Error">File couldn't be opened. Make sure the file is a text file.</v:String>
+
+</ResourceDictionary>
